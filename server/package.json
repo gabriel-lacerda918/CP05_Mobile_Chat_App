@@ -1,0 +1,22 @@
+{
+  "name": "chat-notifications-api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/server.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsc --watch",
+    "test": "tsc && node --test dist/services/recipientPolicy.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "firebase-admin": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "typescript": "~5.9.0"
+  }
+}

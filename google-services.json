@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "48135676598",
+    "firebase_url": "https://fiap-mobile-b1d17-default-rtdb.firebaseio.com",
+    "project_id": "fiap-mobile-b1d17",
+    "storage_bucket": "fiap-mobile-b1d17.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48135676598:android:c03df222f2a8dd42a7bc17",
+        "android_client_info": {
+          "package_name": "br.com.br.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48135676598-m93k3omeue1r4kjspb1kcde34smg6eqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzNyXokeYAu5CxqQRnkyTJThvmQNdm5Hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48135676598-m93k3omeue1r4kjspb1kcde34smg6eqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48135676598:android:19e3a2590003d2eaa7bc17",
+        "android_client_info": {
+          "package_name": "br.com.seugrupo.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48135676598-m93k3omeue1r4kjspb1kcde34smg6eqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzNyXokeYAu5CxqQRnkyTJThvmQNdm5Hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48135676598-m93k3omeue1r4kjspb1kcde34smg6eqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "ChatApp",
+    "slug": "chat-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "chatapp",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "br.com.seugrupo.chatapp",
+      "googleServicesFile": "./google-services.json",
+      "permissions": ["POST_NOTIFICATIONS"]
+    },
+    "ios": {
+      "bundleIdentifier": "br.com.seugrupo.chatapp",
+      "supportsTablet": false,
+      "infoPlist": { "UIBackgroundModes": ["remote-notification"] }
+    },
+    "plugins": [
+      "expo-dev-client",
+      ["expo-notifications", { "color": "#0f766e" }],
+      ["expo-image-picker", { "photosPermission": "O app acessa suas fotos para definir a foto de perfil ou do grupo." }]
+    ],
+    "extra": { "eas": { "projectId": "COLE_O_PROJECT_ID_DO_EAS" } }
+  }
+}
